@@ -7,5 +7,5 @@ spec:
   selector:
     app: mongo
   ports:
-    - port: 27017
+    - port: 8080
       name: mongo
