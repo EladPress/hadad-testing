@@ -4,7 +4,7 @@ metadata:
   name: mongo
 spec:
   serviceName: "mongo"  # 👈 Must match the headless service
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: mongo
